@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 80%;      
+    width: 60%;      
     margin: 0 auto;
 }
 
@@ -36,13 +36,13 @@ section.row{
 .like{
     position: absolute;
     right: 0;
-    top: 10px;
-    width: 30px;
-    height: 30px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     text-align: center;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 40px;
+    font-size: 25px;
 }
 /* TAG */
 .tag{    
@@ -74,11 +74,25 @@ section.row{
 }
 
 /*  FIRST FOTO */
-.foto img.first{
+.foto img{
     object-fit: cover;    
     width: 100%;
     height: 100%;
-    
+}
+
+.foto img.first{
+        
+}
+
+.foto img.second{
+    display: none;
+}
+
+.foto:hover .second{
+    display:inline;
+}
+.foto:hover .first{
+    display: none;
 }
 
 /* CAPTION */
