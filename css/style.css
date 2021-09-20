@@ -63,14 +63,14 @@ section.row{
 }
 .discount{    
     width: 28%;    
-    background-color:rgb(252, 36, 90);   
+    background-color:rgb(252, 36, 90);  
+    margin-right: 4%; 
 }
 
 
 .hippie{
     background-color: seagreen;    
-    width: 68%;    
-    margin-left: 4%;
+    width: 68%;   
 }
 
 /*  FIRST FOTO */
