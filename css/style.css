@@ -1,3 +1,4 @@
+/* GLOBAL */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -6,30 +7,81 @@
 }
 
 .container{
-    width: 60%;
-    height: 1000px;
-    background-color: aquamarine;
+    width: 80%;      
     margin: 0 auto;
 }
 
-.row{
-    height: 40%;
-    background-color: blue;
+section.row{
+    height: 40%;    
     margin-bottom: 1%;
-
 }
 
 .item{
-    background-color: wheat;
+    
     height: 100%;
     width: 31%;
     display: inline-block;
     margin: 1%;
 }
-.item .foto{
+
+/* FOTO */
+ .foto{
+    position: relative;
     height: 85%
+    
 }
 
+/* HEART */
+
+.like{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+/* TAG */
+.tag{    
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    top: 90%;
+    color: white;
+}
+
+.tag > *{
+    float: left;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.discount{    
+    width: 28%;    
+    background-color:rgb(252, 36, 90);   
+}
+
+
+.hippie{
+    background-color: seagreen;    
+    width: 68%;    
+    margin-left: 4%;
+}
+
+/*  FIRST FOTO */
+.foto img.first{
+    object-fit: cover;    
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* CAPTION */
 .item .caption{
     height: 15%;
 }
